@@ -1,16 +1,20 @@
 #include <iostream>
 using namespace std;
 int n = 0;
+char c;
 void team()
 {
-	cin;
-	if ()
+	c = getchar();
+	if ( c == '(')
 	{
-	} 
-	else
-	{
+		team();
 	}
-
+	
+	if ( c == ')')
+	{
+		cout << "Yes! " << endl;
+	}
+	
 }
 int main()
 {
